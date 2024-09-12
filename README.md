@@ -18,3 +18,5 @@ Adiciona um controle de volume para vídeos no Bluesky (https://bsky.app).
 3.  Ative o modo de desenvolvedor
 4.  Clique em "Carregar como extensão"
 5.  Selecione a pasta onde você baixou o repositório
+
+Done thanks to the amazing [Fresh Chrome Extension boilerplate](https://github.com/llagerlof/fresh-chrome-extension).
