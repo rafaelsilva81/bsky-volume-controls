@@ -1,6 +1,7 @@
 # Bsky Volume Controls
 
 Adds a volume slider to videos on Bluesky (https://bsky.app).
+
 Adiciona um controle de volume para vídeos no Bluesky (https://bsky.app).
 
 ## Installation
