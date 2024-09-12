@@ -1,4 +1,4 @@
-console.log('Content script is running');
+console.log('bsky-volume-controls content script is running');
 
 // Function to handle newly detected video elements
 function handleNewVideo(video) {
@@ -36,7 +36,7 @@ function handleNewVideo(video) {
   // Add the onchange event listener to the volumeSliderRange
   volumeSliderRange.addEventListener('change', function () {
     const volume = volumeSliderRange.value;
-    console.log('Volume changed to:', volume);
+    // console.log('Volume changed to:', volume);
     // Update the volume of the video
     video.volume = volume / 100;
   });
@@ -52,10 +52,8 @@ function handleNewVideo(video) {
 function detectExistingVideos() {
   const videos = document.querySelectorAll('video');
   if (videos.length > 0) {
-    console.log('Existing videos detected:', videos);
+    // console.log('Existing videos detected:', videos);
     videos.forEach(handleNewVideo);
-  } else {
-    console.log('No videos detected yet');
   }
 }
 
@@ -69,12 +67,12 @@ const observer = new MutationObserver((mutationsList) => {
       mutation.addedNodes.forEach((node) => {
         // Check if the added node is a video or contains videos
         if (node.tagName === 'VIDEO') {
-          console.log('Video element added:', node);
+          // console.log('Video element added:', node);
           handleNewVideo(node);
         } else if (node.querySelectorAll) {
           const nestedVideos = node.querySelectorAll('video');
           nestedVideos.forEach((video) => {
-            console.log('Nested video element added:', video);
+            // console.log('Nested video element added:', video);
             handleNewVideo(video);
           });
         }
