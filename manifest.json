@@ -1,6 +1,6 @@
 {
   "name": "Bsky Volume Controls",
-  "description": "Adds a volume slider to videos on Bluesky (https://bsky.app).",
+  "description": "Adds a volume slider to videos on Bluesky.",
   "homepage_url": "https://github.com/rafaelsilva81/bsky-volume-controls",
   "version": "1.0.0",
   "manifest_version": 3,
