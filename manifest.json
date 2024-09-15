@@ -15,7 +15,7 @@
   "host_permissions": ["https://bsky.app/*"],
   "browser_specific_settings": {
     "gecko": {
-      "id": "rafaelsilva81_bsky_volume_controls_c22bb1c9-e2f0-425b-90e8-f079c48b58ea"
+      "id": "rafaelsilva81-bsky-volume-controls-c22bb1c9-e2f0-425b-90e8-f079c48b58ea"
     }
   }
 }
